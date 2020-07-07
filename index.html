@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш город</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <textarea style="width:400px;" id="city" placeholder="Ваш город - Архангельск?"></textarea>
+    <p id="user-city"></p>
+    <br>
+    <a href ="#" onclick="deleteCookie('city');">Удалить информацию о городе</a>
+    <button type="submit" id="btn-save">Сохранить</button>
+    <script src="./src/script.js"></script>
+</body>
+</html>
